@@ -1,50 +1,41 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-
-# =============== #
-# Unity generated #
-# =============== #
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
+###
+# Unity folders and files
+###
+[Aa]ssets/AssetStoreTools*
 [Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
+[Ll]ibrary/
+[Ll]ocal[Cc]ache/
+[Oo]bj/
+[Tt]emp/
+[Uu]nityGenerated/
+# file on crash reports
+sysinfo.txt
+# Unity3D generated meta files
+*.pidb.meta
 
-# Uncomment this line if you wish to ignore the asset store tools plugin
-# [Aa]sset[s]/AssetStoreTools*
-
-# =========================== #
-# Visual Studio / MonoDevelop #
-# =========================== #
-.vscode/
+###
+# VS/MD solution and project files
+###
+[Ee]xportedObj/
+*.booproj
 *.csproj
-*.unityproj
 *.sln
 *.suo
-*.tmp
+*.svd
+*.unityproj
 *.user
 *.userprefs
 *.pidb
-*.booproj
-*.svd
+.DS_Store
 
-# ============ #
-# OS generated #
-# ============ #
+###
+# OS generated
+###
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
-ehthumbs.db
 Icon?
+ehthumbs.db
 Thumbs.db
-
-# ========== #
-# Others     #
-# ========== #
-*.apk
-*.aab
-*.unitypackage
